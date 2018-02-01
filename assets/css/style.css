@@ -14,7 +14,7 @@ main{
 	margin-top: 20px;
 	margin-left: 200px;
 	margin-right: 40px;
-	margin-bottom: ;
+	margin-bottom:20px;
 	padding:50px;
 
 
@@ -42,11 +42,12 @@ nav{
 aside{
 	background-color: #ffffff;
 	width: 270px;
-	height: 270px;
+	height: 250px;
 	position: absolute;
 	top: 110px;
 	right:60px;
 	margin-right: 250px;
+	 
 
 }
 
@@ -171,4 +172,8 @@ footer{
 	border-style: solid;
 
 
+}
+
+#aside{
+	padding: 50px;
 }
