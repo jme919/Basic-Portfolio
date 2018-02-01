@@ -1,3 +1,6 @@
+a{
+	text-decoration: none;
+}
 h1{
 	color:#4aaaa5;
 	font-size: 30px;
@@ -141,4 +144,5 @@ footer{
 	width:250px;
 	height: 250px;
 	float: left;
+	margin: 20px;
 }
