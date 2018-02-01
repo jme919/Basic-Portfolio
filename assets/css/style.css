@@ -10,9 +10,13 @@ h1{
 
 main{
 	background-color: #ffffff;
-	width: 650px;
+	width: 600px;
+	margin-top: 20px;
 	margin-left: 200px;
-	margin-right: 20px;
+	margin-right: 40px;
+	margin-bottom: ;
+	padding:50px;
+
 
 }
 
@@ -31,6 +35,7 @@ nav{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 	text-decoration: none;
+	text-align: right;
 	
 }
 
@@ -39,8 +44,8 @@ aside{
 	width: 270px;
 	height: 270px;
 	position: absolute;
-	top: 100px;
-	right:100px;
+	top: 110px;
+	right:60px;
 	margin-right: 250px;
 
 }
@@ -70,7 +75,7 @@ footer{
 	height: 200px;
 	width: 300px;
     background-image: url(../images/rpggame.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 #hang{
@@ -124,6 +129,7 @@ footer{
 	border-bottom: 2px;
 	border-bottom-color: #cccccc;
 	border-style: solid;
+	
 
 	text-align: center;
 
@@ -136,7 +142,7 @@ footer{
 }
 
 #mypic{
-	width:250px;
+	width:200px;
 	height: 250px;
 	float: left;
 	margin: 20px;
@@ -158,3 +164,11 @@ footer{
 	text-align: center;
 	font-weight: bold; 
 }	
+
+#aboutme{
+	border-bottom: 2px;
+	border-bottom-color: #cccccc;
+	border-style: solid;
+
+
+}
