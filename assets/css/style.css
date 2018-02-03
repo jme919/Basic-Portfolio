@@ -1,12 +1,19 @@
+/* styles for tags across all three pages*/
+
 a{
 	text-decoration: none;
 }
+
 h1{
 	color:#4aaaa5;
 	font-size: 30px;
 	font-weight: bold;
-
 }
+
+p,label,input{
+	color: #777777;
+}
+
 
 main{
 	background-color: #ffffff;
@@ -14,14 +21,24 @@ main{
 	margin-top: 20px;
 	margin-left: 200px;
 	margin-right: 40px;
-	margin-bottom:20px;
-	padding:50px;
+	margin-bottom:60px;
+	padding: 50px;
+	display: block;
 
 
 }
 
 body{
 	background-image: url(../images/circles-light.png);
+	margin-bottom: 50px;
+
+}
+html{
+	position: relative;
+	min-height: 100%;
+
+
+
 }
 
 header{
@@ -30,13 +47,17 @@ header{
 	border-bottom-color: #cccccc;
 	border-style: solid;
 
+
 }
-nav{
+
+/* navigation bar--don't know why text color is not working--*/
+nav {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 	text-decoration: none;
 	text-align: right;
 	margin-right: 10px;
+	color: #777777;
 	
 }
 
@@ -54,7 +75,7 @@ aside{
 
 
 
-
+/* icons for aside*/
 img{
 	width:50px;
 	height:50px;
@@ -64,7 +85,8 @@ footer{
 	text-align: center;
 	padding: 30px;
 	position: absolute;
-	bottom: 0px;
+	bottom: 0%;
+	left:0;
 	width: 100%;
 	background-color: #666666;
 	border-top: 10px;
@@ -73,55 +95,82 @@ footer{
 
 }
 
+/* images for the portfolio page*/
+/* all pictures are floated left and but the background is collapsed*/
 #rpg{
 	height: 200px;
-	width: 300px;
+	width: 200px;
     background-image: url(../images/rpggame.jpg);
     background-size: cover;
+    float: left;
+    margin:10px;
 }
 
 #hang{
 	height: 200px;
-	width: 300px;
+	width: 200px;
     background-image: url(../images/hangman.jpg);
     background-size: cover;
+    float: left;
+    margin:10px
 
 }
 
 #trivia{
 	height: 200px;
-	width: 300px;
+	width: 200px;
     background-image: url(../images/triviagame.jpg);
     background-size: cover;
+    float: left;
+    margin:10px
 
 }
 
 #rps{
 	height: 200px;
-	width: 300px;
+	width: 200px;
     background-image: url(../images/rockpaperscissors.jpg);
     background-size: contain;
+    float: left;
+    margin:10px
 
 }
 
 #info{
 	height: 200px;
-	width: 300px;
+	width: 200px;
     background-image: url(../images/info.jpg);
     background-size: contain;
+    float: left;
+    margin:10px
+
 
 }
+
+/*styling just for the banners arcoss portfolio pictures*/
 
 .pictext{
 	color: #ffffff;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 	text-align: center;
-	float: left;
+	float: 
 	margin: 10px;
+	width: 200px;
+	height: 200px;
 
 
 }
+.front{
+	background-color: #4aaaa5;
+	width:100%;
+	
+
+}
+
+
+
+/* styling for the connect with me aside */
 
 #connect{
 	color: #4aaaa5;
@@ -131,30 +180,27 @@ footer{
 	border-bottom: 2px;
 	border-bottom-color: #cccccc;
 	border-style: solid;
-	
-
 	text-align: center;
-
 }
+
+#aside{
+	padding: 50px;
+}
+
 
 
 #bio{
 	line-height: 200%;
 	font-size: 20px;
 }
-
+/* picture on main page */
 #mypic{
 	width:200px;
 	height: 250px;
 	float: left;
 	margin: 20px;
 }
-.front{
-	background-color: #4aaaa5;
-	width:100%;
-	
 
-}
 
 .myname{
 	background-color: #4aaaa5;
@@ -175,9 +221,7 @@ footer{
 
 }
 
-#aside{
-	padding: 50px;
-}
+/*submit button styling*/
 
 #submit{
 	background-color: #4aaaa5;
